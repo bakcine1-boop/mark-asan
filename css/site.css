@@ -918,3 +918,6 @@ h1, h2, h3, h4 { font-weight: inherit; }
 .stats b { font-size: clamp(30px, 8vw, 64px); }
 @media (min-width: 900px) { .stats { grid-template-columns: repeat(3, 1fr); } .stats > div { padding-top: 26px; padding-bottom: 22px; } .stats > div + div { padding-left: 28px; } }
 .player__cover img { object-position: 50% 82%; filter: brightness(.9) saturate(.95); }
+.stats--2 { grid-template-columns: 1fr 1.3fr; }
+.stats--2 dt { font-size: 14px; max-width: 13em; }
+@media (min-width: 900px) { .stats--2 { grid-template-columns: 1fr 1fr; } }
